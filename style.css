@@ -1,20 +1,206 @@
 h1 {
     font-size: 48px ;
     font-weight: bold;
+    margin: 0%;
+    padding-top: 50px;
+    padding-left: 200px;
+
 }
+.a1  { 
+    text-decoration:none; 
+    color: inherit;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-left: 800px;
+    padding-left: 300px;
+   
+
+} 
+a {
+    text-decoration:none; 
+    color: inherit;
+}
+    
+
 header {
-    background-color: #ec008c;
+    color: aliceblue;
+    margin: 0%;
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-top: 20px;
 }
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    padding: auto;
 }
 .div1  {
-    background-color: #ec008c;
+    background-color: #1f2937;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.button2{
+    margin-left: 0px; 
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7;
+    color: white;
+    border-color: #e5e7eb;
+    
+}
+.flexh3{
+    display: flex;
+    flex: 1 1 0%;
 }
 
 .img1 {
-    width: 300px;
+    
+ 
+    width: 500px;
     height: auto;
-    align : right;
+    /* align-self: flex-end; */
+    outline: white;
+    padding-left: 400px;
+    padding-bottom: 50px;
+    /* padding-left: 300px;
+    padding-bottom: 100px;
+    padding-right: 100px; */
 }
+
+
+.flex-container {
+    color: black;
+    background-color: white;
+    margin: 0%;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+  justify-content: center;
+  
+
+}
+.flex1 {
+    /* text-align: right;
+    align-items: center; */
+    justify-content: center;
+    outline-style: solid;
+    outline-color: #3882f6;
+    margin: 30px;
+    border-radius: 25px;
+    outline-style: ridge;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    flex-direction: row;
+
+
+  
+}
+.flex2 {
+    /* text-align: right;
+    align-items: center; */
+    justify-content: center;
+    outline-style: solid;
+    outline-color: #3882f6;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+}
+.flex3 {
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    outline-style: solid;
+    outline-color: #3882f6;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+
+.div3 {
+    background-color: #e5e7eb;
+    text-align: center;
+    font-size: 36px;
+    font-weight: light;
+    padding: 50px;
+    color: #1f2937;
+}
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 25px;
+}
+.div4{
+    /* text-align: center; */
+    background-color:  #3882f6;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+.div5 {
+    /* padding-left: 50px;
+    padding-right: 195px; */
+    text-align: center;
+}
+.span1 {
+    text-align: center;
+    padding-left:250px;
+}
+   
+button{
+   font-size: 18px;
+   border-radius: 7px;
+   background-color: #3882f6;
+   margin-left: 200px ;
+   outline-color: white;
+   outline-width: 2px;
+   padding-right: 15px;
+   color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline-style: solid;
+}
+/* .flex-container2{
+     display: flex;
+    flex: 1 1 0;
+    display: block;
+    color: black;
+    justify-content: space-around;
+    outline-style:none;
+    margin-left: 150px;
+    font-size: 18px;
+}
+.span2{
+    justify-content: center;
+    outline-style: solid;
+    margin: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 100;
+}
+.span3{
+    justify-content: center;
+    outline-style: solid;
+   margin-left: 100px;
+   padding: 50px;
+
+}
+.span4{
+    justify-content: center;
+    outline-style: solid;
+    margin: 30px;
+} */ 
