@@ -1,0 +1,19 @@
+h1 {
+    font-size: 48px ;
+    font-weight: bold;
+}
+header {
+    background-color: #ec008c;
+}
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.div1  {
+    background-color: #ec008c;
+}
+
+#img1 .div1 {
+    width: 300px;
+    height: auto;
+}
