@@ -30,12 +30,14 @@ header {
     font-weight: bold;
     padding-left: 200px;
     padding-top: 20px;
+   
 }
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
     padding: auto;
+    width:max-content;
 }
 .div1  {
     background-color: #1f2937;
@@ -60,7 +62,7 @@ body {
 
 .img1 {
     
- 
+    padding-right: 100px;
     width: 500px;
     height: auto;
     /* align-self: flex-end; */
