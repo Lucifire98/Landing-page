@@ -13,7 +13,8 @@ body {
     background-color: #ec008c;
 }
 
-#img1 .div1 {
+.img1 {
     width: 300px;
     height: auto;
+    align : right;
 }
